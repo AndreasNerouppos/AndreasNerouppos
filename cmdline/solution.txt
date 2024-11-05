@@ -8,6 +8,6 @@ byte6 :unzipping_was_never_so_easy
 byte7 : 
 byte8 : no_more_secrets_from_you
 byte9 : filepaths_can_be_useful
-Byte10:Adorne
+byte10:Adorne
 byte11:KellEY
 
