@@ -1,7 +1,7 @@
 byte0 :now_you_know_how_to_change_directories
 byte1 :in_every_job_that_must_be_done_there_is_an_element_of_fun
 byte2 :grep_is_your_friend
-byte3 :grammers
+byte3 :programmers
 byte4 :you_just_found_the_triwizard_cup
 byte5 :sdi2400230_1730481772_1473323784_79_129_183_21_52916_22
 byte6 :unzipping_was_never_so_easy
