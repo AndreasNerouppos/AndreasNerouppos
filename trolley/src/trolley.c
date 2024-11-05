@@ -14,7 +14,7 @@ return 0;
 	}		
 //Έλεγχος για το δεύτερο κόστος
         	printf("Please enter the cost of going right: \n");
-	if(scanf("%ld",&right) !=1 ){
+	if(scanf("%ld",&right) !=1 || k==EOF ){
                 printf("No right cost provided. \n");
 return 1;
         }
