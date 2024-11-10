@@ -6,15 +6,28 @@ int main(){  //Συνάρτηση main
 long long int l,r,left, right;  // Δήλωση μεταβλητών
 
 while(1){
+//Ζήτησε και διάβασε το πρώτο κόστος
+	printf("Please enter the cost of going left: \n");
+	l=scanf("%lld",&left);
 //Έλεγχος για το πρώτο κόστος
-		printf("Please enter the cost of going left: \n");
-	if((l=scanf("%lld",&left)) !=1 || l==EOF){
+	if(l==EOF){
 		printf("Terminating. \n");
-return 0;	
-	}		
+		return 0;
+	}
+	else if (l!=1){
+		printf("No right cost provided. \n");
+		return 1;
+	}	
+			
+//Ζήτησε και διάβασε το δεύτερο κόστος
+        printf("Please enter the cost of going right: \n");
+	r=scanf("%lld",&right);
 //Έλεγχος για το δεύτερο κόστος
-        	printf("Please enter the cost of going right: \n");
-	if((r=scanf("%lld",&right)) !=1 || r==EOF ){
+	if(r==EOF ){
+               printf("Terminating.\n");
+	       return 0;
+	}
+	else if (r!=1){
                 printf("No right cost provided. \n");
 return 1;
         }
